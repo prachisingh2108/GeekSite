@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeksite </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation  -->
+    
+    <nav>
+        <div class="left">
+            <div>Geeksite</div>
+            </div>
+        <div class="navigation">
+           <ul>
+                <i id="menu_close" class="fa-solid fa-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <img  id="menu_btn" src="img/hamburger.png" alt="">
+        </div>
+    </nav>
+    <!-- home -->
+    <section id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+            <img src="img/b3.png" alt=" ">
+            <h3>Introduction to Android Development.</h3>
+            <p>Android operating system is the largest installed base among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 71% of the global market share by the end of 2021, and this trend is growing bigger every other day.<br><br> 
+             The company named Open Handset Alliance developed Android for the first time that is based on the modified version of the Linux kernel and other open-source software. Google sponsored the project at initial stages and in the year 2005, it acquired the whole company. In September 2008, the first Android-powered device was launched in the market. Android dominates the mobile OS industry because of the long list of features it provides. It’s user-friendly, has huge community support, provides a greater extent of customization, and a large number of companies build Android-compatible smartphones. As a result, the market observes a sharp increase in the demand for developing Android mobile applications, and with that companies need smart developers with the right skill set.<br><br>
+            At first, the purpose of Android was thought of as a mobile operating system. However, with the advancement of code libraries and its popularity among developers of the divergent domain, Android becomes an absolute set of software for all devices like tablets, wearables, set-top boxes, smart TVs, notebooks, etc.
+
+
+         </p>
+         <a href="#">Read Next ?</a>
+         </div>
+      </div> 
+    </section>
+ 
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>
+                You Can Trust Us.We only send promo offers
+            </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @2022 All rights reserved | This template is made by geeksite
+            </p>
+            <div class="pro-links">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <!--Tablet View-->
+    <script>
+        $('#menu_btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu_close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    <!--About Page-->
+</body>
+</html>

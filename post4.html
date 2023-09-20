@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeksite </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation  -->
+    
+    <nav>
+        <div class="left">
+            <div>Geeksite</div>
+            </div>
+        <div class="navigation">
+           <ul>
+                <i id="menu_close" class="fa-solid fa-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <img  id="menu_btn" src="img/hamburger.png" alt="">
+        </div>
+    </nav>
+    <!-- home -->
+    <section id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+            <img src="img/b4.jpg" alt=" ">
+            <h3>What Is Front-End Development?</h3>
+            <p>Front-end development involves the “client-facing” side of web development. That is to say usually, front-end web development refers to the portion of the site, app, or digital product that users will see and interact with. A Front-End Developer, therefore, is responsible for the way a digital product looks and “feels,” which is why they are often also referred to as Web Designers.<br><br>
+
+                Front-End Web Developers focus on translating website design and visual ideas into code. A front-end Software Developer takes the design ideas created by others on web development teams and programs them into reality, acting as a bridge between design and technology.<br><br>
+                
+                Front-End Developers will usually need to possess a solid understanding of programming languages, including HTML, CSS, and JavaScript, as well as frameworks like React, Bootstrap, Backbone, AngularJS, and EmberJS. Responsibilities of a Front-End Developer would include creating responsive websites (that look and function well on any device), conducting website testing and fixing any bugs detected along the web development process, and ensuring site structure follows SEO best practices.
+         </p>
+         <a href="#">Read Next ?</a>
+         </div>
+      </div> 
+    </section>
+ 
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>
+                You Can Trust Us.We only send promo offers
+            </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @2022 All rights reserved | This template is made by geeksite
+            </p>
+            <div class="pro-links">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <!--Tablet View-->
+    <script>
+        $('#menu_btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu_close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    <!--About Page-->
+</body>
+</html>

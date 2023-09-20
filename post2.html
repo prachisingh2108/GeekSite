@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geeksite </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation  -->
+    
+    <nav>
+        <div class="left">
+            <div>Geeksite</div>
+            </div>
+        <div class="navigation">
+           <ul>
+                <i id="menu_close" class="fa-solid fa-xmark"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <img  id="menu_btn" src="img/hamburger.png" alt="">
+        </div>
+    </nav>
+    <!-- home -->
+    <section id="blog-container">
+      <div class="blogs blogpost">
+        <div class="post">
+            <img src="img/b2.webp" alt=" ">
+            <h3>Thing You Need To Know About Full-Stack Developer?</h3>
+            <p>
+            A Full-Stack Developer is someone familiar with both front- and back-end development. Full Stack Developers usually understand a wide variety of programming languages and because of their versatility, they might be given more of a leadership role on projects than developers who specialize. They are generalists, adept at wearing both hats, and familiar with every layer of development. Obviously, employers want to hire Full-Stack Developers – according to an Indeed study, they are the fourth-most in-demand job in tech.<br><br>
+
+            If the title is contentious, it’s in the generalist nature of the position. Developers who specialize in the front-end or back-end often bristle at the notion that someone could be equally adept at both – the expression “jack-of-all-trades, master of none” comes to mind.<br><br>
+            
+            “My defensive tendencies are normally put on high alert when I hear that magic phrase (‘full-stack’),” wrote Front-End Developer Andy Shora. “Stacks are a lot bigger than what they used to be, and being able to claim one has acquired refined skills at every layer of web development is certainly not a small claim. Does this mean you have a broad range of skills or you specialize in everything?”<br><br>
+            
+            While that perception persists, there still is an increasing number of tech professionals who consider themselves Full-Stack Developers. According to a recent Stack Overflow survey of Developers, 48.2 percent consider themselves Full-Stack Developers.<br><br>
+            
+            What’s unclear is whether Developers are now expected to possess a broader skillset, or if Developers are taking it upon themselves to understand functions at both the front-end and back-end. Either way, it’s becoming increasingly important for aspiring Developers to have a foundation in both.<br><br>
+            
+            “For most people hoping to break into web improvement, you should center around working up an establishment in both front-end and back-end advancement first,” recommended Software Engineer and Tech Writer Muhammad Anser. “At that point, you can float towards a claim to fame later on.”<br><br>
+            
+            And with demand for Developers expected to grow 15 percent by 2026 (for 24,400 new jobs), much faster than the U.S. average rate of job growth, there may not be a better time to dive in and learn more about all the layers of Web Development.<br><br>
+         </p>
+         <a href="#">Read Next ?</a>
+         </div>
+      </div> 
+    </section>
+ 
+    
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Jobs</li>
+            <li>Brand Assests</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>
+                You Can Trust Us.We only send promo offers
+            </p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email Address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright @2022 All rights reserved | This template is made by geeksite
+            </p>
+            <div class="pro-links">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+    </footer>
+    <!--Tablet View-->
+    <script>
+        $('#menu_btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu_close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+    <!--About Page-->
+</body>
+</html>
